@@ -3,123 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Домашнее задание №1</title>
+    <title>Домашнее задание №2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 
     <!-- Шапка сайта -->
 
-    <header>
+    <header class="header">
 
-        <nav>
-            <a href="./index.html" aria-label="Логотип" lang="en"><span>Web</span><span>Studio</span></a>
-            <ul>
-                <li>
-                    <a href="">Студия</a>
+        <nav class="navigation">
+            <a class="logotype" href="./index.html" aria-label="Логотип" lang="en">
+                <span class="part-logotype">Web</span><span> Studio</span>
+            </a>
+            <ul class="menu">
+                <li class="menu-list">
+                    <a class="menu-list-carrent-page" href="./index.html">Студия</a>
                 </li>
-                <li>
-                    <a href="">Портфолио</a>
+                <li class="menu-list">
+                    <a class="menu-list-page" href="./portfolio.html">Портфолио</a>
                 </li>
-                <li>
-                    <a href="">Контакты</a>
+                <li class="menu-list">
+                    <a class="menu-list-page" href="">Контакты</a>
                 </li>
             </ul>
         </nav>
 
-        <address>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <address class="contacts">
+            <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a>
         </address>
 
     </header>
 
     <main>
 
+    <!-- Портфолио -->
    <section>
 
-    <!-- Портфолио -->
-
-       <h1 hidden>Страница с проектами</h1>
+           <h1 hidden>Перечень проектов</h1>
 
        <ul>
            <li>
-               <button>Все</button>
+               <button type="button">Все</button>
             </li>
            <li>
-               <button>Веб-сайты</button>
+               <button type="button">Веб-сайты</button>
             </li>
            <li>
-               <button>Приложения</button>
+               <button type="button">Приложения</button>
             </li>
            <li>
-               <button>Дизайн</button>
+               <button type="button">Дизайн</button>
             </li>
            <li>
-               <button>Маркетинг</button>
+               <button type="button">Маркетинг</button>
             </li>
        </ul>
 
        <ul>
            <li>
                <a href="">
-                   <img src="./images/portfolio/project-1.jpg" alt="компьютер">
+                   <img src="./images/portfolio/project-1.jpg" alt="компьютер" width="370" height="294">
                    <h2>Технокряк</h2>
                    <p>Веб-сайт</p>
+                   <p hidden>Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового шпионажа и атак на защищённые сервера конкурентов.</p>
                 </a>
             </li>
            <li>
                <a href="">
-                   <img src="./images/portfolio/project-2.jpg" alt="баскетболисты">
+                   <img src="./images/portfolio/project-2.jpg" alt="баскетболисты" width="370" height="294">
                    <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
                    <p>Дизайн</p>
                 </a>
             </li>
            <li>
                <a href="">
-                   <img src="./images/portfolio/project-3.jpg" alt="логотип компании сиафуд">
+                   <img src="./images/portfolio/project-3.jpg" alt="логотип компании сиафуд" width="370" height="294">
                    <h2>Ресторан <span lang="en">Seafood</span></h2>
                    <p>Приложение</p>
                 </a>
             </li>
            <li>
                <a href="">
-                   <img src="./images/portfolio/project-4.jpg" alt="наушники">
-                   <h2>Проект Prime</h2>
+                   <img src="./images/portfolio/project-4.jpg" alt="наушники" width="370" height="294">
+                   <h2>Проект <span lang="en">Prime</span></h2>
                    <p>Маркетинг</p>
                 </a>
             </li>
            <li>
                <a href="">
-                   <img src="./images/portfolio/project-5.jpg" alt="две коробки">
-                   <h2>Проект Boxes</h2>
+                   <img src="./images/portfolio/project-5.jpg" alt="две коробки" width="370" height="294">
+                   <h2>Проект <span lang="en">Boxes</span></h2>
                    <p>Приложение</p>
                 </a>
             </li>
            <li>
                <a href="">
-                   <img src="./images/portfolio/project-6.jpg" alt="комютер включенный">
-                   <h2>Inspiration has no Borders</h2>
+                   <img src="./images/portfolio/project-6.jpg" alt="комютер включенный" width="370" height="294">
+                   <h2 lang="en">Inspiration has no Borders</h2>
                    <p>Веб-сайт</p>
                 </a>
             </li>
            <li>
                <a href="">
-                   <img src="./images/portfolio/project-7.jpg" alt="рскрытый журнал">
-                   <h2>Издание Limited Editio</h2>
+                   <img src="./images/portfolio/project-7.jpg" alt="рскрытый журнал" width="370" height="294">
+                   <h2>Издание <span lang="en">Limited Editio</span></h2>
                    <p>Дизайн</p>
                 </a>
             </li>
            <li>
                <a href="">
-                   <img src="./images/portfolio/project-8.jpg" alt="логотип компании ЛАБ ЭН ТАБ">
-                   <h2>Проект LAB</h2>
+                   <img src="./images/portfolio/project-8.jpg" alt="логотип компании ЛАБ ЭН ТАБ" width="370" height="294">
+                   <h2>Проект <span lang="en">LAB</span></h2>
                    <p>Маркетинг</p>
                 </a>
             </li>
            <li>
                <a href="">
-                   <img src="./images/portfolio/project-9.jpg" alt="ноутбук">
-                   <h2>Growing Business</h2>
+                   <img src="./images/portfolio/project-9.jpg" alt="ноутбук" width="370" height="294">
+                   <h2 lang="en">Growing Business</h2>
                    <p>Приложение</p>
                 </a>
             </li>  
