@@ -3,15 +3,183 @@ body {
     font-size: 14px;
     background-color: #ffffff;
     color: #212121;
-    }
+}
 
+.link {
+    text-decoration: none;
+}
+    
+.list {
+    list-style: none;
+}
 
-/* font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif; */
+/* Шапка сайта */
 
-/* 
-second color text: #757575;
-second color text: #FFFFFF;
+.logotype {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #000000;
+}
 
+.logotype .part {
+    color: #2196F3;
+}
+    
+.menu-list-page,
+.contacts-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
 
-*/
+.menu-list-page:hover,
+.menu-list-page:focus,
+.contacts-link:hover,
+.contacts-link:focus,
+.address-footer .footer-link:hover,
+.address-footer .footer-link:focus {
+    color: #2196F3;
+}
+
+.contacts-link {
+    font-style: normal;
+    color: #757575;
+}
+
+/* Главная секция */
+
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #757575;
+    /* background сделал серым что бы было видно как отображается белый тест */
+}
+
+.modal-btn {
+    background-color: #2196F3;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.86;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+/* Мейн блок */
+
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+}
+
+.subtitle {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.advantages-list-description {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.doing .subtitle {
+    color: #FFFFFF;
+    background-color: rgba(47, 48, 58, 0.8);
+    text-align: center;
+}
+
+.team-member-name,
+.team-member-position {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-member-position {
+    font-weight: normal;
+    color: #757575;
+}
+
+.social-icons-link {
+    color: #AFB1B8;
+}
+
+.social-icons-link:hover,
+.social-icons-link:focus,
+.social-footer .social-icons-link:hover,
+.social-footer .social-icons-link:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;   
+}   
+
+/* Футер */
+
+.contacts-footer .logotype {
+    color: #FFFFFF;
+}
+
+.footer-site {
+    background-color: #2F303A;;
+}
+.address-footer {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.address-footer .footer-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.social-footer .subtitle {
+    color: #FFFFFF;
+}
+
+.social-footer .social-icons-link {
+    color: #FFFFFF; 
+}
+
+/* Портфолио */
+
+.filter-modal-btn {
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.filter-modal-btn:hover,
+.filter-modal-btn:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
