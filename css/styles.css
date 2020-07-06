@@ -161,6 +161,7 @@ body {
 .address-footer {
     font-weight: 400;
     font-size: 14px;
+    font-style: normal;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--main-color-theme-dark);
@@ -204,7 +205,8 @@ body {
     color: var(--main-color-theme-light);
 }
 
-.exampls-work-product {
+.exampls-work-product,
+.exampls-work-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
@@ -212,13 +214,9 @@ body {
     color: var(--secondary-color);
 }
 
-/*
-Закоментировал так как насколько я понял мы еще будем изучать как сделать замещения картинки текстом
 .exampls-work-description {
-    font-weight: 400;
     font-size: 18px;
     line-height: 1,56;
-    letter-spacing: 0.03em;
-    color: var(--main-color-theme-dark);   
+    color: var(--accent-color-blu-fone);
+    background-color: var(--accent-color);
 }
-*/
